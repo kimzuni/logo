@@ -1,41 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
 © 2022 kimzuni <hello@kimzuni.com>
-Create Date : 2022.05.14
-Latest Date : 2022.05.15
+Create Date : 2023.01.12
+Latest Date : 2023.01.12
 -->
 <svg	xmlns="http://www.w3.org/2000/svg"
-	viewBox="-5 -5 74 74"
-	height="1024" width="1024">
+	width="640"
+	height="640"
+	viewBox="0 0 64 64">
 
 
-
-<path	id="Z"
-	fill="#5cc9ff"
-	stroke="#5cc9ff"
-	stroke-width="0.2"
-	d="m 1.5,1.5 h 30 v 3 l -26,24 h 26 v 3 h -30 v -3 l 26,-24 h -26 z"
-/>
-<path	id="U"
-	fill="#5cc9ff"
-	stroke="#5cc9ff"
-	stroke-width="0.2"
-	d="m 32.5,1.5 h 3 v 27 h 24 v -27 h 3 v 30 h -30 z"
-/>
-<path	id="N"
-	fill="#5cc9ff"
-	stroke="#5cc9ff"
-	stroke-width="0.2"
-	d="m 1.5,32.5 h 3 l 24,26 v -26 h 3 v 30 h -3 l -24,-26 v 26 h -3 z"
-/>
-<path	id="I"
-	fill="#5cc9ff"
-	stroke="#5cc9ff"
-	stroke-width="0.2"
-	d="m 32.5,32.5 h 30 v 3 h -13.5 v 24 h 13.5 v 3 h -30 v -3 h 13.5 v -24 h -13.5 z"
-/>
-
-
-
-
+	<g
+		fill="#5cc9ff"
+		stroke="#5cc9ff"
+	>
+		<path	d="m 1,33 h 30 v 3 l -26,24 h 26 v 3 h -30 v -3 l 26,-24 h -26 z"
+			stroke-width="2"
+		/>
+		<path	d="m 36.75,24.75 h 22.5 v 2.25 l -19.5,18 h 19.5 v 2.25 h -22.5 v -2.25 l 19.5,-18 h -19.5 z"
+			stroke-width="1.5"
+		/>
+		<path	d="m 26.5,4.5 h 15 v 1.5 l -13,12 h 13 v 1.5 h -15 v -1.5 l 13,-12 h -13 z"
+			stroke-width="1"
+		/>
+		<path	d="m 53.15,0.35 h 10.5 v 1.05 l -9.1,8.4 h 9.1 v 1.05 h -10.5 v -1.05 l 9.1,-8.4 h -9.1 z"
+			stroke-width="0.7"
+		/>
+	</g>
 </svg>
