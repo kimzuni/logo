@@ -1,3 +1,11 @@
+/*
+ * © 2023 kimzuni <hello@kimzuni.com>
+ * Create Date : 2023.01.12
+ * Latest Date : 2023.01.12
+ */
+
+
+
 const svg_draw_favicon = {
 	"name": "favicon",
 	"viewBox": "0 0 64 64",
