@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
-© 2023 kimzuni <hello@kimzuni.com>
-Create Date : 2023.01.12
-Latest Date : 2023.01.12
--->
-<svg	xmlns="http://www.w3.org/2000/svg"
-	width="640"
-	height="640"
-	viewBox="0 0 64 64">
+   - © 2023 kimzuni <hello@kimzuni.com>
+   - Create Date : 2023.01.12
+   - Latest Date : 2023.01.13
+   -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 	<g fill="#5cc9ff" stroke-width="0">
 		<path d="m 0,32 h 32 v 5 l -24,22 h 24 v 5 h -32 v -5 l 24,-22 h -24 z"/>
 		<path d="m 36,24 h 24 v 3.75 l -18,16.5 h 18 v 3.75 h -24 v -3.75 l 18,-16.5 h -18 z"/>
