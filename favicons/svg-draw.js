@@ -12,6 +12,7 @@ const svg_draw_favicon = {
 	"height": 64,
 	"width": 64,
 	"count": 0,
+	"color": "var(--svg-draw-color, #5cc9ff)",
 	"code": ""
 }
 svg_draw_favicon.code = `
@@ -29,7 +30,7 @@ const f_svg_draw_favicon = function(svg_draw_box) {
 	svg_draw_favicon.count++;
 	const svg_draw_info = svg_draw_favicon;
 
-	let svg_draw_code = `<svg viewBox="${svg_draw_info.viewBox}" draw="${svg_draw_info.name}" fill="var(--svg-draw-color, #5cc9ff)" stroke="var(--svg-draw-color, #5cc9ff)">`;
+	let svg_draw_code = `<svg viewBox="${svg_draw_info.viewBox}" draw="${svg_draw_info.name}" fill="${svg_draw_info.color}"">`;
 	if (svg_draw_info.count == 1) {
 		svg_draw_code += `<symbol id="svg-draw-${svg_draw_info.name}">${svg_draw_info.code}</symbol>`;
 	}
@@ -41,7 +42,7 @@ const f_svg_draw_favicon = function(svg_draw_box) {
 
 
 window.addEventListener("load", function() {
-	for (let svg_draw_box of document.querySelectorAll(`svg[draw="${svg_draw_favicon.name}"]`)) {
+	for (let svg_draw_box of document.querySelectorAll(`svg[draw="favicon"]`)) {
 		f_svg_draw_favicon(svg_draw_box);
 	}
 });
