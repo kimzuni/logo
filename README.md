@@ -1,1 +1,1 @@
-# My logo & favicons
+# My logos & favicons

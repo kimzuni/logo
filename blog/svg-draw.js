@@ -30,7 +30,7 @@ const f_svg_draw_blog = function(svg_draw_box) {
 	svg_draw_blog.count++;
 	const svg_draw_info = svg_draw_blog;
 
-	let svg_draw_code = `<svg viewBox="${svg_draw_info.viewBox}" draw="${svg_draw_info.name}" fill="${svg_draw_info.color}"">`;
+	let svg_draw_code = `<svg viewBox="${svg_draw_info.viewBox}" draw="${svg_draw_info.name}" fill="${svg_draw_info.color}">`;
 	if (svg_draw_info.count == 1) {
 		svg_draw_code += `<symbol id="svg-draw-${svg_draw_info.name}">${svg_draw_info.code}</symbol>`;
 	}
