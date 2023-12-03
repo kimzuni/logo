@@ -16,7 +16,7 @@ const svg_draw_project = {
 	"code": ""
 }
 svg_draw_project.code = `
-	<g fill="#5cc9ff" stroke-width="0">
+	<g stroke-width="0">
 		<path d="m 0,28 h 15 c 10,0 10,9 10,9 0,10 -10,10 -10,10 h -10 v -3 h 10 c 5,0 5,-6 5,-6 s 0,-6 -5,-6 h -10 v 32 h -5 z"/>
 		<path d="m 36,24 h 24 v 3.75 l -18,16.5 h 18 v 3.75 h -24 v -3.75 l 18,-16.5 h -18 z"/>
 		<path d="m 26,4 h 16 v 2.5 l -12,11 h 12 v 2.5 h -16 v -2.5 l 12,-11 h -12 z"/>
